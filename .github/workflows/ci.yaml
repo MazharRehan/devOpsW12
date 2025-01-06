@@ -10,3 +10,5 @@ jobs:
     steps:
       - name: Welcome Message
         run: echo "Welcome to CI Pipeline"
+      - name: Clone The Repository
+        uses: actions/checkout@v4
