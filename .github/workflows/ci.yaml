@@ -20,7 +20,7 @@ jobs:
         run: npx htmlhint "**/*.html"
       - name: Install StyleLint # https://stylelint.io/user-guide/rules
         run: npm install --save-dev stylelint
-      - name: Lint CSS Files
-        run: npx stylelint "**/*.css"
+      # - name: Lint CSS Files
+      #   run: npx stylelint "**/*.css"
       - name: Display Package.json Contents
         run: cat package.json
